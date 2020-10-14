@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Todos from './components/Todos';
 
-class App extends React.Component {
+class App extends Component {
   constructor(props) {
     super(props);
 
